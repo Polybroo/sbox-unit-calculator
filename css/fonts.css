@@ -1,0 +1,20 @@
+@font-face {
+    font-family: trebuchet;
+    src: url(../fonts/trebuc.ttf);
+}
+@font-face {
+    font-family: trebuchet;
+    src: url(../fonts/trebucbd.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: trebuchet;
+    src: url(../fonts/trebucit.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: trebuchet;
+    src: url(../fonts/trebucbi.ttf);
+    font-style: italic;
+    font-weight: bold;
+}

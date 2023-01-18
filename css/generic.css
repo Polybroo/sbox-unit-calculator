@@ -1,0 +1,22 @@
+* {
+    padding: unset;
+    margin: unset;
+    font-family: trebuchet;
+    font-size: 1vw;
+}
+body {
+    background-color: black;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -999;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    filter: blur(50px);
+    opacity: 0.5;
+}
