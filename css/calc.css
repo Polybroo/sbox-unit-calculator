@@ -2,11 +2,18 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
-#wrapper {
+#container {
     width: 100%;
     height: 100%;
     display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -59,4 +66,24 @@ body {
 }
 .saucify input {
     font-weight: bold;
+}
+@media only screen and (max-width: 991px) {
+    .calcbox {
+        width: 38vw;
+    }
+    .saucify {
+        order: 1;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #wrapper {
+        height: 100%;
+    }
+    .calcbox {
+        width: 50vw;
+    }
+    .saucify {
+        position: relative;
+        order: -1;
+    }
 }
